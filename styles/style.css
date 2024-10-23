@@ -1,0 +1,85 @@
+ *{
+    margin: 0px;
+    font-family: Roboto;
+ }
+ ul>li{
+    list-style: none; 
+ }
+
+ul{
+    display: flex;
+    gap: 30px;
+    
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color:#fff9ea;
+    height: 108px;
+    }
+    .list-item{ font-size: 20px;
+      font-weight: 700;
+
+
+    }
+    .frist-btn{
+       width: 122px;
+      height: 38px;
+      background-color: #ffcb45;
+     border: none;
+     border-radius: 24px;
+     font-weight: 700;
+    }
+    /* hero section */
+    .hero-section{
+      background-image: url("../images/shapes.png");
+      height: 90vh;
+      background-size: cover;
+    }
+
+    .hero-content{
+      display: flex;
+      justify-content: space-around;
+     }
+     .hero-frist{
+       display: flex;
+       align-items: center;
+     }
+    .hero-heading{
+      font-size: 60px;
+      margin-bottom: 21px;
+    }
+        /* about section */
+
+     .about-container{
+      margin-top: 80px;
+      text-align: center;
+
+     }   
+
+        .about-content{
+         margin-top: 32px;
+         display: flex;
+         justify-content: space-around;
+        }
+        .popular-menu{
+          text-align: center;
+          margin: 80px;
+        }
+
+        /* popular menu */
+        .popular-content{
+          display: flex;
+          gap: 35px;
+          justify-content: center;
+          margin-top: 35px;
+        }
+       .items{
+        background-color:#f1f1f1;
+       padding: 30px;
+       border-radius: 20px;
+       margin-bottom: 20px;
+       
+       }
