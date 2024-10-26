@@ -1,6 +1,10 @@
  *{
     margin: 0px;
     font-family: Roboto;
+   
+ }
+ body{
+  overflow-x: hidden;
  }
  ul>li{
     list-style: none; 
@@ -75,6 +79,8 @@ nav{
           gap: 35px;
           justify-content: center;
           margin-top: 35px;
+          margin-left: 124px;
+          margin-right: 124px;
         }
        .items{
         background-color:#f1f1f1;
@@ -83,3 +89,68 @@ nav{
        margin-bottom: 20px;
        
        }
+
+       /* review-section */
+        .review-container{
+          display: flex;
+          
+
+        }
+       .img-container{
+        margin-left: 170px;
+       }
+
+       .review{
+        margin-top: 30px;
+        margin-left: 144px;
+       }
+
+       .review-card{
+        margin-top: 32px;
+        display: flex;
+        gap: 20px;
+       }
+
+       /* discount-style */
+
+       .discount-container{
+        background-image:url("../images/8.png");
+        background-size: contain;
+        height: 332px; 
+        background-position: center;
+        background-repeat: no-repeat;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+       
+       }
+
+         /* footer-section */
+
+         .footer-container{
+          background-image: url("../images/11.png");
+          height: 489px;
+          margin-top: 80px;
+          background-size: cover;
+         }
+
+         .footer-flex{
+          display: flex;
+          justify-content: space-around;
+          padding-top: 99px;
+         }
+
+         .footer-menu{
+        
+        
+         }
+         div>p{
+          padding-top: 16px;
+         
+         }
+         .icons{
+          display: flex;
+          margin-left: -15px;
+          margin-top: 25px;
+         }
